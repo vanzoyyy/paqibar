@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Semantic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav, main, footer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        article {
+            flex: 3;
+            text-align: left;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            margin-top: 20px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SMK CINTA KASIH TZU CHI</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h2>Halaman Depan</h2>
+                <p>INI HALAMAN DEPAN</p>
+            </section>
+
+            <section>
+                <h2>Tentang Kami</h2>
+                <p>Ini adalah bagian tentang kami.</p>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Info Sampingan</h3>
+            <p>SMK Tzu Chi adalah sekolah yang sangat mantep banget aw</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vano | Sekolah Cinta Kasih Tzu Chi</p>
+    </footer>
+</body>
+</html>
