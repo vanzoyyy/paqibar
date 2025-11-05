@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.flag {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.cross_vertical {
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cross_horizontal {
+    position: absolute;
+    background-color: red;
+    height: 40px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pojok_kiri {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.pojok_kiri2 {
+    background-color: red;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+    flex-direction: column;
+}
+
+.pojok_kanan {
+    background-color: red;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    flex-direction: column;
+}
+
+.pojok_kanan2 {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 285px;
+}
+
+.pojok_kiri_bawah {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+
+.pojok_kiri_bawah2 {
+    background-color: red;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    top: 175px;
+    left: 65px;
+    flex-direction: column;
+}
+
+.pojok_kanan_bawah {
+    background-color: red;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    top: 175px;
+    left: 300px;
+    flex-direction: column;
+}
+
+.pojok_kanan_bawah2 {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 190px;
+    left: 285px;
+}

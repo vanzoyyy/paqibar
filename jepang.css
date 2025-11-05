@@ -1,0 +1,26 @@
+.flag {
+    width:400px;
+    height:250px;
+    background-color: white;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+
+.back {
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+
+
+.circle {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    left: 150;
+    top: 80;
+    border-radius: 100px 100px;
+}

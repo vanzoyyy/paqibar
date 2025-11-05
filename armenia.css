@@ -1,0 +1,27 @@
+.flag {
+    width:400px;
+    height:250px;
+    background-color: red;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+
+.back_atas {
+    background-color: red;
+    height: 50%;
+    width: 100%;
+}
+
+.back_bawah {
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+}
+
+
+.back_bawah2 {
+    background-color: #FFB732;
+    height: 50%;
+    width: 100%;
+}
